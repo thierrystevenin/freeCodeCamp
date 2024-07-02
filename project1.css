@@ -1,0 +1,80 @@
+** Responsive Web Design Certification Project 1: Survey Form **
+
+header {
+  text-align: center;
+  color: #f5f5f5;
+}
+
+body {
+  text-align: center;
+  background-color: #123456;
+  color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+input, select, textarea {
+  width: 100%;
+  max-width: 300px;
+  padding: 5px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+fieldset {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #f5f5f5;
+}
+
+.checkbox-class, .radio-class {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.checkbox-class label, .radio-class label {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.checkbox-class input, .radio-class input {
+  margin-right: 10px;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 5px;
+  text-align: left;
+}
+
+.footer {
+  font-size: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#submit-container {
+  text-align: center;
+}
+
+#submit {
+  width: auto;
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  color: #123456;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #e0e0e0;
+}
+
+
+** end of undefined **
+
