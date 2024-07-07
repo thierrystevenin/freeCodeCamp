@@ -1,0 +1,97 @@
+** freeCodeCamp Responsive Web Design Certification Project 2 **
+
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  background-color: #5f6f7f;
+  color: #f5f6f7;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+header > p {
+  font-size: 14px;
+  color: #333;
+  margin: 10px 0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+figure {
+  background-color: #5f6f7f;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+#img-caption {
+  color: #f5f6f7;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#tribute-info {
+  font-size: 16px;
+  color: #333;
+  margin: 20px 0;
+  max-width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tribute-link {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}
+
+.link {
+  text-align: center;
+}
+
+ul {
+  background-color: #5f6f7f;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 600px;
+  color: #f5f6f7;
+  list-style-type: none; /* Removes default bullet points */
+}
+
+ul li {
+  font-size: 16px;
+  margin: 5px 0;
+  padding: 5px 5px;
+  border-radius: 3px;
+  background-color: #6f7f8f; /* Slightly different shade for list items */
+}
+
+ul li:hover {
+  background-color: #7f8f9f; /* Hover effect for list items */
+}
