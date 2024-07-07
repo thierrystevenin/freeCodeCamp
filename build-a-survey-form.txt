@@ -1,0 +1,151 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Survey</h1>
+      <p id="description">HTML & CSS Showcase</p>
+    </header>
+    <form id="survey-form">
+      <fieldset>
+        <div>
+          <label id="name-label" for="name">Please enter your name:</label>
+          <input id="name" type="text" placeholder="name" required />
+        </div>
+        <div>
+          <label id="email-label" for="email">Please enter your email:</label>
+          <input id="email" type="email" placeholder="email" required />
+        </div>
+        <div>
+          <label id="number-label" for="number">Please enter your age:</label>
+          <input id="number" type="number" min="13" max="120" placeholder="24" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <div>
+          <label for="dropdown">Why are you taking this survey?</label>
+          <select id="dropdown">
+            <option value="">Please Select</option>
+            <option value="1">To practice my HTML & CSS coding</option>
+            <option value="2">Just for fun</option>
+          </select>
+        </div>
+        <div class="radio-class">
+          <p>Practice makes perfect:</p>
+          <div>
+            <label><input value="Pick this one" name="radio" type="radio"/> True</label>
+          </div>
+          <div>
+            <label><input value="Not this one" name="radio" type="radio" checked />False</label>
+          </div>
+        </div>
+        <div class="checkbox-class">
+          <p>Check all languages you know:</p>
+            <label><input type="checkbox" value="html" name="check" /> HTML</label>
+            <label><input type="checkbox" value="css" name="check" /> CSS</label>
+            <label><input type="checkbox" value="javascript" name="check" /> JavaScript</label>
+        </div>
+        <div>
+          <label for="textarea">A fun fact about yourself:</label>
+          <textarea id="textarea" name="textarea" rows="2" cols="50"></textarea>
+        </div>
+      </fieldset>
+      <div id="submit-container">
+        <input id="submit" type="submit" />
+      </div>
+      <footer class="footer">
+        <p>Created by Thierry Stevenin</p>
+      </footer>
+    </form>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+header {
+  text-align: center;
+  color: #f5f5f5;
+}
+
+body {
+  text-align: center;
+  background-color: #123456;
+  color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+input, select, textarea {
+  width: 100%;
+  max-width: 300px;
+  padding: 5px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+fieldset {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #f5f5f5;
+}
+
+.checkbox-class, .radio-class {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.checkbox-class label, .radio-class label {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.checkbox-class input, .radio-class input {
+  margin-right: 10px;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 5px;
+  text-align: left;
+}
+
+.footer {
+  font-size: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#submit-container {
+  text-align: center;
+}
+
+#submit {
+  width: auto;
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  color: #123456;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #e0e0e0;
+}
+
+
+** end of undefined **
+
